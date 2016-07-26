@@ -1,0 +1,102 @@
+html, body {
+  margin : 0;
+  padding: 0;
+}
+
+.buttons {
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+}
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  background-color: rgb(170, 18, 18);
+  color: #fff;
+  margin: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.btn:hover {
+  background-color: rgb(255, 41, 41);
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn:active {
+    background: rgb(170, 18, 18);
+    box-shadow: none;
+}
+
+.result {
+  font-size: 2.5em;
+  font-family: "Monaco", Georgia, Serif;
+  margin: 0;
+}
+
+.valor {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+}
+
+.list-users {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.user {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  background-color: rgb(11, 12, 112);
+  color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+}
+
+.user h2 {
+  text-align: center;
+  font-family: "Monaco", Georgia, Serif;
+  margin: 0;
+}
+
+.removeUser {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-group {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+  overflow: hidden;
+  margin: 2px auto;
+}
+
+@media screen and (max-width:800px ) {
+  .form-group {
+    display: block;
+    width: 90%;
+  }
+}
